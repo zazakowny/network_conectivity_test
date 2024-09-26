@@ -26,13 +26,13 @@ This Bash script tests various network-related features for all network interfac
     
   Make the script executable:
 
-    chmod +x check_interfaces.sh
+    chmod +x interface_connection_test.sh
 
 # Usage
 
   Run the script directly from the terminal:
 
-    ./check_interfaces.sh
+    ./interface_connection_test.sh
 
   The script will check the status of all network interfaces on the system and output the results for each interface.
 
