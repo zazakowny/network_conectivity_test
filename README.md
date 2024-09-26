@@ -28,6 +28,14 @@ This Bash script tests various network-related features for all network interfac
 
     chmod +x interface_connection_test.sh
 
+# Tested addresses setup
+
+  In order to test different addresses you can modify the lists:
+
+  * subdomains - for NTP tests
+  * http_servers - for port 80 conectivity test
+  * ssl_servers - for SSL connection test
+
 # Usage
 
   Run the script directly from the terminal:
