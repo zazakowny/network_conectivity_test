@@ -22,8 +22,8 @@ This Bash script tests various network-related features for all network interfac
 
   Clone the repository or download the script directly.
   
-    git clone https://github.com/your-repository/network-testing-script.git
-
+    git clone https://github.com/zazakowny/network_conectivity_test/
+    
   Make the script executable:
 
     chmod +x check_interfaces.sh
