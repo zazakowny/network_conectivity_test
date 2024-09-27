@@ -36,7 +36,7 @@ has_internet_access() {
 # Function to check NTP server availability on port 123 for multiple subdomains
 can_connect_to_ntp() {
     for subdomain in "${subdomains[@]}"; do
-        if nc -z -w 1 "$subdomain" 123 > /dev/null 2>&1; then
+        if nc -z -w 1 -u "$subdomain" 123 > /dev/null 2>&1; then
             echo -e "  ${GREEN}PASS${NC} NTP: Connection to $subdomain (port 123) is available"
         else
             echo -e "  ${RED}FAIL${NC} NTP: Unable to connect to $subdomain on port 123"
